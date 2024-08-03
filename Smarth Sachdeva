@@ -1,0 +1,39 @@
+Q1#write a code to print the following pattern?
+#    *
+#   **
+#  ***
+# ****
+#*****
+for i in range(0,6):
+    print(" "*(6-i)+"*"*i)
+--><--
+Q2
+def perform_division():
+    while True:
+        try:
+            num1 = float(input("Enter the first number: "))
+            num2 = float(input("Enter the second number: "))
+            result = num1/num2
+            print(f"The result of (num1) divided by (num2) is {result:2f}")
+            break
+        except ZeroDivisionError:
+            print("Error: Division by zero is not allowed. Please try again.")
+        except ValueError:
+                Print("Error: Invalid Input")
+               
+               
+if __name__=="__main__":
+            perform_division()
+Q3
+
+class Equipment:
+    def __init__(self):
+        self.stock = {
+            'Eid': [],
+            'Ename': [],
+            'Brand': [],
+            'Total_qty': [],
+            'Avail_qty': []
+        }
+        
+           
